@@ -1,0 +1,14 @@
+{
+  "name": "Case-Study-Framework",
+  "version": "0.0.0",
+  "description": "Case study framework using node & express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabe Pelegrin",
+  "license": "ISC",
+  "dependencies": {
+    "grunt": "^0.4.5"
+  }
+}
