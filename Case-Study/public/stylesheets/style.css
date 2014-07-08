@@ -1,2 +1,17 @@
 body {
   background-color: green; }
+
+a {
+  background-color: red;
+  width: 6em;
+  text-decoration: none;
+  border-radius: 0.5em;
+  text-transform: uppercase;
+  color: white;
+  padding: 0.5em;
+  cursor: pointer;
+  -webkit-transition: background-color 0.25s ease-in; }
+  a:hover {
+    background-color: blue;
+    cursor: pointer;
+    -webkit-transition: background-color 0.25s ease-out; }
