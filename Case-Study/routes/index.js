@@ -11,4 +11,9 @@ router.get('/helloworld', function(req, res) {
     res.render('helloworld', { title: 'Hello, World!' });
 });
 
+/* GET Hello Casestudy page. */
+router.get('/casestudy', function(req, res) {
+    res.render('casestudy', { title: 'Casestudy' });
+});
+
 module.exports = router;

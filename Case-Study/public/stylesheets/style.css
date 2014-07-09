@@ -1,5 +1,9 @@
 body {
-  background-color: green; }
+  background-color: white; }
+
+section {
+  width: 70%;
+}
 
 a {
   background-color: red;
@@ -10,8 +14,8 @@ a {
   color: white;
   padding: 0.5em;
   cursor: pointer;
-  -webkit-transition: background-color 0.25s ease-in; }
+  -webkit-transition: background-color 200ms ease-in; }
   a:hover {
     background-color: blue;
     cursor: pointer;
-    -webkit-transition: background-color 0.25s ease-out; }
+    -webkit-transition: background-color 200ms ease-out; }
