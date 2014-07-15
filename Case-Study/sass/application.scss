@@ -1,8 +1,27 @@
-$color: green;
+@import "bourbon";
+@import "neat";
 
 body {
-  background-color: $color;
+  @include backface-visibility(visible);
 }
+
+.button {
+  @include button(shiny, #ff0000);
+  color: green;
+}
+
+section {
+  @include outer-container;
+  div {
+
+  }
+}
+
+$color: white;
+
+// body {
+//   background-color: $color;
+// }
 
 a {
   background-color: red;

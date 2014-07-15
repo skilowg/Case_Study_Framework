@@ -3,7 +3,14 @@ module.exports = function(grunt) {
     sass: {
       dist: {
         files: {
-          'public/stylesheets/style.css': 'sass/style.scss'
+          'public/stylesheets/application.css': 'sass/application.scss'
+        },
+        options: {
+          includePaths: [
+            './bower_components/bower-bourbon',
+            './node_modules/node-neat/assets/stylesheets',
+            './bower_components/normalize-css'
+          ]
         }
       }
     },
