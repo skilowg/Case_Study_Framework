@@ -3,6 +3,10 @@ html
   head
     title= title
     link(rel='stylesheet', href='/stylesheets/application.css')
+    link(rel='stylesheet', href='/stylesheets/normalize.css')
+    //- link(rel='javascript', href='/javascripts/javascript.js')
+    //- link(rel='stylesheet', href='/href="//ajax.googleapis.com/ajax/libs/jquerymobile/1.4.3/jquery.mobile.min.css')
+    //- script(src='//ajax.googleapis.com/ajax/libs/jquerymobile/1.4.3/jquery.mobile.min.js')
   body
     //- header
     //-   nav
@@ -17,3 +21,11 @@ html
 
 
     script(src='http://localhost:3000/livereload.js')
+    script(src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js')
+    link(rel='stylesheet', href='//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css')
+    script(src='//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js')
+    script(src='jquery.ui.touch-punch.min.js')
+    script
+      window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\\/script>')
+    script(src='/javascripts/main.js')
+

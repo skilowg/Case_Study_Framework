@@ -1,12 +1,54 @@
 extends casestudy_layout
 
 block content
-  section
-    h1 The problem
-    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in nisl nisl. Vivamus quis dignissim magna, non vulputate lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent sem tortor, fermentum vel pretium vel, iaculis ac odio. Suspendisse potenti.
-    div.container
+  header.centered-navigation
+    .centered-navigation-wrapper
+      a.mobile-logo(href='javascript:void(0)')
+        img(src='/images/gp_temp_logo.png', alt='')
+      a.centered-navigation-menu-button(href='') MENU
+      ul.centered-navigation-menu
+        li.nav-link
+          a(href='javascript:void(0)') Products
+        li.nav-link
+          a(href='javascript:void(0)') About Us
+        li.nav-link
+          a(href='javascript:void(0)') Contact
+        li.logo
+          a.logo(href='javascript:void(0)')
+            img(src='/images/gp_temp_logo.png', alt='')
+        li.nav-link
+          a(href='javascript:void(0)') Testimonials
+        li.nav-link.more
+          a(href='javascript:void(0)') More
+          ul.submenu
+            li
+              a(href='javascript:void(0)') Submenu Item
+            li
+              a(href='javascript:void(0)') Another Item
+            li.more
+              a(href='javascript:void(0)') Item with submenu
+              ul.submenu
+                li
+                  a(href='javascript:void(0)') Sub-submenu Item
+                li
+                  a(href='javascript:void(0)') Another Item
+            li.more
+              a(href='javascript:void(0)') Another submenu
+              ul.submenu
+                li
+                  a(href='javascript:void(0)') Sub-submenu
+                li
+                  a(href='javascript:void(0)') An Item
+        li
+          a(href='javascript:void(0)') Sign up
 
-    div.button hello
+  div.hero
+    div.hero-inner
+      div.hero-copy
+        h1 The problem
+        p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in nisl nisl. Vivamus quis dignissim magna, non vulputate lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent sem tortor, fermentum vel pretium vel, iaculis ac odio. Suspendisse potenti.
+      button Learn More
+
   section
     h1 Intended Outcome
     p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in nisl nisl. Vivamus quis dignissim magna, non vulputate lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent sem tortor, fermentum vel pretium vel, iaculis ac odio. Suspendisse potenti.
