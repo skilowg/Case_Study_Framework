@@ -7,10 +7,9 @@ module.exports = function(grunt) {
         },
         options: {
           includePaths: [
-            './bower_components/bower-bourbon',
-            './node_modules/node-neat/assets/stylesheets',
-            './bower_components/normalize-css',
-            './node_modules/bitters/app/assets/stylesheets'
+            './sass/bourbon',
+            './sass/neat',
+            './sass/bitters'
           ]
         }
       }
