@@ -1,8 +1,8 @@
-@import "bourbon/bourbon";
-@import "bitters/app/assets/stylesheets/base";
+@import "./sass/bourbon/bourbon";
+@import "./sass/bitters/app/assets/stylesheets/base";
 @import "_grid-settings";
-@import "neat/neat";
-@import "modules/modules";
+@import "./sass/neat/neat";
+@import "./sass/modules/modules";
 
 // body {
 //   @include backface-visibility(visible);
