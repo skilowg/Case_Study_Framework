@@ -3,7 +3,7 @@ module.exports = function(grunt) {
     sass: {
       dist: {
         files: {
-          'public/stylesheets/application.css': 'sass/application.scss'
+          'public/stylesheets/application.css': './sass/application.scss'
         },
         options: {
           includePaths: [
@@ -16,7 +16,7 @@ module.exports = function(grunt) {
     },
     watch: {
       source: {
-        files: ['sass/**/*.scss', 'views/**/*.jade'],
+        files: ['./sass/**/*.scss', './views/**/*.jade'],
         tasks: ['sass'],
         options: {
           livereload: true

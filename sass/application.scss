@@ -4,45 +4,6 @@
 @import "./sass/neat/neat";
 @import "./sass/modules/modules";
 
-// body {
-//   @include backface-visibility(visible);
-// }
-
-// .button {
-//   @include button(shiny, #ff0000);
-//   color: green;
-// }
-
-// section {
-//   @include outer-container;
-//   div {
-
-//   }
-// }
-
-// $color: white;
-
-// // body {
-// //   background-color: $color;
-// // }
-
-// a {
-//   background-color: red;
-//   width: 6em;
-//   text-decoration: none;
-//   border-radius: .5em;
-//   text-transform: uppercase;
-//   color: white;
-//   padding: .5em;
-//   cursor: pointer;
-//   -webkit-transition: background-color 200ms ease-in;
-//     &:hover {
-//       background-color: blue;
-//       cursor: pointer;
-//       -webkit-transition: background-color 200ms ease-out;
-//   }
-// }
-
 
 .problem {
   @extend .text;
